@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  background: linear-gradient(
+    180deg,
+    #d9e4eb,
+    #44719f
+    );
+  color:rgb(0, 0, 0);
+  margin: 0;
+}
+
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px auto;
+  color: white;
+  background: linear-gradient(to left, #1c92d2, #f2fcfe);
+  box-shadow: 4px 4px 6px #48515a;
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.iconsContainer {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.todo-button {
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 55%;
+  min-height: 600px;
+  text-align: center;
+  margin: 25px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+input {
+  font-size: large;
+  display: inline;
+  padding: 10px;
+  width: 40%;
+  height: 25px;
+  border-radius: 25px;
+  border: gray;
+  align-items: flex-start;
+}
+
+.add-task {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.select-state {
+  width: 12%;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border: gray;
+  font-weight: bold;
+  border-right: 12px solid transparent;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
